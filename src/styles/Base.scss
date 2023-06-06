@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Babapro';
+  src:  url('../../public/Babapro-Ea4rr.otf') format('opentype');
+  font-stretch: extra-condensed
+}
+
+@font-face {
+  font-family: 'Geliat';
+  src: url('../../public/GeliatExtralight-6YLRq.otf');
+}
+
+p {
+  color: black;
+  font-family: 'Geliat';
+}
+
+label {
+  color: black;
+  font-family: 'Geliat';
+  padding: 0.5vw 0.5vh;
+}
+
+h1, h2 {
+  color: black;
+  font-family: 'Babapro';
+  padding-left: 0.27em; 
+  display: inline;
+  border-bottom: 2px solid currentColor;
+}
+
+ul, li {
+  list-style-image: none;
+  list-style: none;
+  list-style-type: none;
+}
+
+a {
+  color:black;
+}
+
+a:visited {
+  @extend a;
+}
+
+div {
+  font-family: 'Babapro';
+}
