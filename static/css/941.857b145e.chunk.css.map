@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/941.857b145e.chunk.css","mappings":"AAEA,oCACI,SACI,aACA","sources":["styles/PainterApp.scss"],"sourcesContent":["\n\n@media screen and (min-width: 550px) {\n    .painter {\n        display: flex;\n        flex-direction: row;\n    }\n}"],"names":[],"sourceRoot":""}
