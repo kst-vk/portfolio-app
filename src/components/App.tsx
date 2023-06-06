@@ -18,7 +18,7 @@ export default function App() {
         <div className={"main-outlet" }>
         <AnimatePresence  mode='wait' initial={false}>
           <Routes location={location} key={location.pathname.split('/')[1]}>
-            <Route path="/" element={<SlideInPad><Home /></SlideInPad>} />
+            <Route path="/portfolio-app/" element={<SlideInPad><Home /></SlideInPad>} />
             <Route path="/contact" element={<SlideInPad><Contact /></SlideInPad>} />
             <Route path="/portfolio/*" element={<SlideInPad><Portfolio /></SlideInPad>} />
           </Routes>

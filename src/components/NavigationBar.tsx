@@ -37,7 +37,7 @@ export default function Navbar() {
           if (windowWidth <= 550) setIsNavExpanded(!isNavExpanded);
         }}>
           <li>
-            <NavigationButton route="">About</NavigationButton>
+            <NavigationButton route="portfolio-app/">About</NavigationButton>
           </li><li>
             <NavigationButton route="portfolio">Portfolio</NavigationButton>
           </li>
