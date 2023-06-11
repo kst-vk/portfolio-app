@@ -4,7 +4,6 @@ import { LayersModel, Tensor3D } from "@tensorflow/tfjs";
 
 import "../styles/Base.scss";
 import * as tensorUtils from '../utils/tensorUtils';
-
 export default function NumberRecognizer(props: { canvas: any }) {
 
   const [prediction, setPrediction] = useState(0);
@@ -53,6 +52,8 @@ export default function NumberRecognizer(props: { canvas: any }) {
 
   return (
     <div>
+      <p>1. Draw a single digit</p>
+      <p>2. Click "Predict"</p>
       <button onClick={() => { tf.tidy(() => { makePrediction(props.canvas, model!) }) }}>Predict</button>
       <h1>{prediction}</h1>
       <canvas width={28} height={28} ref={smallCanvasRef}></canvas>
