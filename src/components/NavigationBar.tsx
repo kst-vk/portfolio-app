@@ -44,6 +44,9 @@ export default function Navbar() {
           <li>
             <NavigationButton route="contact">Contact</NavigationButton>
           </li>
+          <li>
+          <NavigationButton href="https://github.com/kst-vk/portfolio-app">Github</NavigationButton>
+          </li>
         </ul>
       </div>
     </nav>
