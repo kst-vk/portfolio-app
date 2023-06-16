@@ -5,7 +5,7 @@ export default function useNavigationBarFadeInAnimation(isNavExpanded: boolean, 
     
     useEffect(() => {
         const handleResize = () => {
-          setWindowWidth(window.innerWidth); setIsNavExpanded(windowWidth >= 550)
+          setWindowWidth(window.innerWidth); setIsNavExpanded(window.innerWidth >= 550)
         }
         window.addEventListener('resize', handleResize);
         const menuAnimations: any = isNavExpanded
