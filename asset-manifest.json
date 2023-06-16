@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.6501be26.css",
-    "main.js": "/portfolio-app/static/js/main.64a9c9c8.js",
+    "main.js": "/portfolio-app/static/js/main.8b47e9d6.js",
     "static/css/941.857b145e.chunk.css": "/portfolio-app/static/css/941.857b145e.chunk.css",
     "static/js/941.d56fd271.chunk.js": "/portfolio-app/static/js/941.d56fd271.chunk.js",
     "static/js/875.f67cc4e3.chunk.js": "/portfolio-app/static/js/875.f67cc4e3.chunk.js",
@@ -10,7 +10,7 @@
     "static/media/Babapro-Ea4rr.otf": "/portfolio-app/static/media/Babapro-Ea4rr.e026ef72db827e9edfee.otf",
     "index.html": "/portfolio-app/index.html",
     "main.6501be26.css.map": "/portfolio-app/static/css/main.6501be26.css.map",
-    "main.64a9c9c8.js.map": "/portfolio-app/static/js/main.64a9c9c8.js.map",
+    "main.8b47e9d6.js.map": "/portfolio-app/static/js/main.8b47e9d6.js.map",
     "941.857b145e.chunk.css.map": "/portfolio-app/static/css/941.857b145e.chunk.css.map",
     "941.d56fd271.chunk.js.map": "/portfolio-app/static/js/941.d56fd271.chunk.js.map",
     "875.f67cc4e3.chunk.js.map": "/portfolio-app/static/js/875.f67cc4e3.chunk.js.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.6501be26.css",
-    "static/js/main.64a9c9c8.js"
+    "static/js/main.8b47e9d6.js"
   ]
 }
